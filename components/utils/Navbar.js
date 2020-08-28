@@ -63,7 +63,10 @@ const Navbar = () => {
           }}
         />
       </div>
-      <div className="flex cursor-pointer" onClick={() => router.push("/")}>
+      <div
+        className="flex cursor-pointer items-center justify-center"
+        onClick={() => router.push("/")}
+      >
         <h1 className="font-bold text-2xl text-gary-800 ">Tech </h1>
         <img src={logo} className="w-10 mx-2" />
         <h1 className="font-bold text-2xl text-indigo-600"> Store </h1>
