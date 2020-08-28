@@ -5,6 +5,7 @@ const SideBar = ({ isOpen }) => {
     { id: 1, name: "home", link: "/" },
     { id: 2, name: "about", link: "/about" },
     { id: 3, name: "contact us", link: "/contact" },
+    { id: 5, name: " Products", link: "/products" },
     { id: 4, name: "cart", link: "/cart" },
   ];
   const showClass = isOpen ? "translate-x-0" : "-translate-x-64";
