@@ -24,7 +24,7 @@ export const navReducer = (state = initialState, action) => {
       };
     case types.CLOSE_SIDE_CART:
       return {
-        ...state,
+        sideBarOpen: false,
         sideCartOpen: false,
       };
     default:
