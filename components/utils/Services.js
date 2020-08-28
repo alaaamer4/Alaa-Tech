@@ -2,14 +2,14 @@ import React from "react";
 import { FaShippingFast, FaGifts, FaRedo } from "react-icons/fa";
 const Services = () => {
   return (
-    <>
+    <div className="bg-white py-5">
       <div className="flex flex-col justify-center items-center text-center">
         <h1 className="text-3xl font-bold uppercase mt-2 text-gray-900 ">
           Services
         </h1>
         <div className="h-1 mx-12 mt-2  w-24 bg-indigo-600 rounded-full mb-2 "></div>
       </div>
-      <div className="my-10 bg-white px-48 md:grid md:gap-4 md:grid-cols-3">
+      <div className="my-10 bg-white px-10 lg:px-48 md:grid md:gap-4 md:grid-cols-3">
         <div className="flex flex-col justify-center items-center text-center">
           <h1 className="text-5xl text-indigo-600">
             <FaShippingFast />
@@ -44,7 +44,7 @@ const Services = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

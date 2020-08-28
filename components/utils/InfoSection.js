@@ -3,16 +3,9 @@ import img from "../../images/defaultBcg.jpeg";
 import { btn } from "./tailwindutil";
 const InfoSection = ({ title, position, img }) => {
   return (
-    <div className="my-5 grid px-32 grid-cols-2 gap-4  ">
-      <div
-        className="relative rounded shadow-xl border-2 border-solid border-white "
-        style={{ width: "500px" }}
-      >
-        <img src={`${img}?lqip`} className="rounded" />
-        <img
-          src={`${img}?webp`}
-          className="absolute top-0 left-0 bottom-0 right-0 rounded z-10 "
-        />
+    <div className="my-5 grid px-32 grid-cols-1 lg:grid-cols-2 gap-8  ">
+      <div className="relative rounded shadow-xl border-2 border-solid border-gray-800 ">
+        <img src={`${img}?lqip`} className="rounded h-full w-full" />
       </div>
       <div>
         <h1 className="text-3xl font-bold uppercase">{title}</h1>

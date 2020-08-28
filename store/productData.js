@@ -1,7 +1,6 @@
 export const items = [
   {
     id: 0,
-
     title: "google pixel - black",
     price: 10,
     company: "google",
@@ -12,43 +11,36 @@ export const items = [
   },
   {
     id: 1,
-
     title: "samsung s7 - white",
     price: 20,
     company: "samsung",
     description:
       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
     featured: false,
-
     image: { url: "images/product-1.png" },
   },
   {
     id: 2,
-
     title: "htc 10 - black",
     price: 30,
     company: "htc",
     description:
       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
     featured: false,
-
     image: { url: "images/product-2.png" },
   },
   {
     id: 3,
-
     title: "htc 10 - white",
     price: 15,
     company: "htc",
     description:
       "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
     featured: false,
-
     image: { url: "images/product-3.png" },
   },
   {
     id: 4,
-
     title: "samsung s7 - black",
     price: 45,
     company: "google",

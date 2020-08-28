@@ -1,11 +1,11 @@
 import React from "react";
-import img from "../../images/defaultBcg.jpeg";
+import image from "../../images/defaultBcg.jpeg";
 import Link from "next/link";
 import { btn } from "./tailwindutil";
 const Hero = ({ title, img, max, link, contain }) => {
   return (
     <div
-      className=" flex flex-col justify-end items-center pb-10 "
+      className=" flex flex-col justify-end items-center pb-10 bg-fixed "
       style={{
         backgroundImage: `url(${img}?lpiq) no-repeat center center/${
           contain ? "contain" : "cover"
@@ -31,6 +31,6 @@ const Hero = ({ title, img, max, link, contain }) => {
 };
 
 Hero.defaultProps = {
-  img,
+  img: image,
 };
 export default Hero;
