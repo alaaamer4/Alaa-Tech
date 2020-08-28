@@ -24,6 +24,7 @@ function MyApp({ Component, pageProps }) {
     dispatch({ type: types.GET_CART, payload: { cart, cartItems } });
     const featured = items.filter((item) => item.featured === true);
     dispatch({ type: types.SET_FEATURED_PRODUCTS, payload: featured });
+    dispatch({ type: types.CLOSE_SIDE_CART });
   });
   return (
     <Provider store={store}>
